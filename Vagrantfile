@@ -3,7 +3,7 @@ Vagrant.configure('2') do |config|
 
   config.vm.hostname = 'wordpress.example.com'
   config.vm.network :forwarded_port, guest: 80, host: 8080
-  config.vm.provision :shell, :inline => 'apt-get update'
+  config.vm.provision :shell, :path => 'bootstraps/ubuntu.sh'
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "manifests"
     puppet.manifest_file  = "site.pp"
