@@ -1,3 +1,5 @@
 class profile::db::php {
-  include mysql::php
+  class {'mysql::bindings':
+    php_enable => true,
+  }
 }

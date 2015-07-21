@@ -1,8 +1,11 @@
 forge 'https://forgeapi.puppetlabs.com'
 
-mod 'puppetlabs/stdlib',  '4.1.0'
-mod 'ripienaar/concat',   '0.2.0'
-mod 'puppetlabs/apache',  '0.8.1'
-mod 'puppetlabs/mysql',   '0.9.0'
+mod 'puppetlabs/stdlib',                                              '4.6.0'
+mod 'puppetlabs/concat',                                              '1.2.3'
+mod 'nanliu/staging',                                                 '1.0.3'
+
+
+mod 'puppetlabs/apache',                                              '1.5.0'
+mod 'puppetlabs/mysql',                                               '3.4.0'
+mod 'hunner/wordpress',                                               '1.0.0'
 mod 'thias/vsftpd',       '0.1.3'
-mod 'hunner/wordpress',   '0.4.2'
