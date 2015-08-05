@@ -1,7 +1,7 @@
 forge 'https://forgeapi.puppetlabs.com'
 
-mod 'puppetlabs/stdlib',                                              '4.6.0'
-mod 'puppetlabs/concat',                                              '1.2.3'
+mod 'puppetlabs/stdlib',                                              '4.7.0'
+mod 'puppetlabs/concat',                                              '1.2.4'
 mod 'nanliu/staging',                                                 '1.0.3'
 
 
